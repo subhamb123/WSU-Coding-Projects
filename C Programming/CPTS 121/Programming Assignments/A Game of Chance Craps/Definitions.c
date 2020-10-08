@@ -23,7 +23,7 @@
 	* Postconditions: Rules have been displayed.                *
 	*************************************************************/
 void print_game_rules() {
-	printf("In this game, you'll test your luck. The computer throws two dice and you winning or losing depends on the sum. If you \nget a sum 7 or 11 on the first throw, you win. 2, 3, or 12 results in a loss. And 4, 5, 6, 8, 9, or 10 means you have tokeep rolling until you hit this number again to win or rolling a 7 while doing this makes you lose. Every round starts \nwith you gambling some money and if you win that round, that gets added to your stash, and if you lose, that gets \nsubtracted. You can leave any time by entering 0 at the start of a round.\n");
+	printf("In this game, you'll test your luck. The computer throws two dice and you winning or losing depends on the sum. If you \nget a sum 7 or 11 on the first throw, you win. 2, 3, or 12 results in a loss. And 4, 5, 6, 8, 9, or 10 means you have tokeep rolling until you hit this number again to win or rolling a 7 while doing this makes you lose. Every roll starts \nwith you gambling some money and if you win that round, that gets added to your stash, and if you lose, that gets \nsubtracted. You can leave any time by waging 0.\n");
 }
 
 /****************************************************************
@@ -38,8 +38,14 @@ void print_game_rules() {
 	*************************************************************/
 double get_bank_balance() {
 	double balance = 0;
-	printf("\nHow much money do you have? ");
-	scanf("%lf", &balance);
+	while (1) {
+		printf("\nHow much money do you have? ");
+		scanf("%lf", &balance);
+		if (balance <= 0)
+			printf("You must pitch in an amount greater than $0!\n");
+		else
+			break;
+	}
 	return balance;
 }
 
@@ -72,7 +78,7 @@ double get_wager_amount(){
 	*                 condition.                                *
 	*************************************************************/
 int check_wager_amount(double wager, double balance) {
-	return wager <= balance ? 1 : 0;
+	return wager <= balance && wager >= 0 ? 1 : 0;
 }
 
 /****************************************************************
