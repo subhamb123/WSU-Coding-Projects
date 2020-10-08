@@ -29,7 +29,7 @@ int main() {
 		while (1) {
 			wage = get_wager_amount();
 			if (check_wager_amount(wage, finalBalance) == 0)
-				printf("Wager amount has to be less than your balance!\n");
+				printf("Wager amount has to be less than your balance and a positive number!\n");
 			else
 				break;
 		}
@@ -62,28 +62,39 @@ int main() {
 			//First round point condition.
 			else {
 				//This block runs until the user wins or loses for rounds after the first.
-				while (1) {
-					printf("Press enter to roll die.\n");
-					scanf("%c", &c);
-					rolls++;
-					die1 = roll_die();
-					die2 = roll_die();
-					sum = calculate_sum_dice(die1, die2);
-					printf("Roll %d Sum: %d\n", rolls, sum);
-					roll = is_point_loss_or_neither(sum, point);
-
-					//Win condition and breaks the while loop.
-					if (roll == 1) {
-						finalBalance = adjust_bank_balance(finalBalance, wage, 1);
-						chatter_messages(rolls, roll, initBalance, finalBalance);
-						break;
+				while (wage != 0) {
+					//This block gets wager every round
+					while (1) {
+						wage = get_wager_amount();
+						if (check_wager_amount(wage, finalBalance) == 0)
+							printf("Wager amount has to be less than your balance and a positive number!\n");
+						else
+							break;
 					}
+					scanf("%c", &c); //Eats up the newline when wager is provided so pressing enter when rolling the die works.
+					if (wage != 0) {
+						printf("Press enter to roll die.\n");
+						scanf("%c", &c);
+						rolls++;
+						die1 = roll_die();
+						die2 = roll_die();
+						sum = calculate_sum_dice(die1, die2);
+						printf("Roll %d Sum: %d\n", rolls, sum);
+						roll = is_point_loss_or_neither(sum, point);
 
-					//Lose condition and breaks the while loop.
-					else if (roll == 0) {
-						finalBalance = adjust_bank_balance(finalBalance, wage, 0);
-						chatter_messages(rolls, roll, initBalance, finalBalance);
-						break;
+						//Win condition and breaks the while loop.
+						if (roll == 1) {
+							finalBalance = adjust_bank_balance(finalBalance, wage, 1);
+							chatter_messages(rolls, roll, initBalance, finalBalance);
+							break;
+						}
+
+						//Lose condition and breaks the while loop.
+						else if (roll == 0) {
+							finalBalance = adjust_bank_balance(finalBalance, wage, 0);
+							chatter_messages(rolls, roll, initBalance, finalBalance);
+							break;
+						}
 					}
 				}
 			}
