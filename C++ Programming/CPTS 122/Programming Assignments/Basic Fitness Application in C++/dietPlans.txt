@@ -1,0 +1,27 @@
+Name: Monday Salad
+Calorie Goal: 2000
+Date: 03/01/2021
+
+Name: Tuesday Fish
+Calorie Goal: 2300
+Date: 03/02/2021
+
+Name: Wednesday Chicken
+Calorie Goal: 2500
+Date: 03/03/2021
+
+Name: Thursday Veggies
+Calorie Goal: 1900
+Date: 03/04/2021
+
+Name: Friday Chicken
+Calorie Goal: 2400
+Date: 03/05/2021
+
+Name: Saturday Curry
+Calorie Goal: 2100
+Date: 03/06/2021
+
+Name: Sunday Fish
+Calorie Goal: 2500
+Date: 03/07/2021

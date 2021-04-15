@@ -1,0 +1,57 @@
+This file isn't used in the program. This is just to reset dietPlans.txt and exercisePlans.txt.
+
+Name: Monday Salad
+Calorie Goal: 2000
+Date: 03/01/2021
+
+Name: Tuesday Fish
+Calorie Goal: 2300
+Date: 03/02/2021
+
+Name: Wednesday Chicken
+Calorie Goal: 2500
+Date: 03/03/2021
+
+Name: Thursday Veggies
+Calorie Goal: 1900
+Date: 03/04/2021
+
+Name: Friday Chicken
+Calorie Goal: 2400
+Date: 03/05/2021
+
+Name: Saturday Curry
+Calorie Goal: 2100
+Date: 03/06/2021
+
+Name: Sunday Fish
+Calorie Goal: 2500
+Date: 03/07/2021
+---------
+Name: Monday Eleptical
+Step Goal: 6500
+Date: 03/01/2021
+
+Name: Tuesday Treadmill
+Step Goal: 8000
+Date: 03/02/2021
+
+Name: Wednesday Bike
+Step Goal: 8400
+Date: 03/03/2021
+
+Name: Thursday Weights
+Step Goal: 6100
+Date: 03/04/2021
+
+Name: Friday Swimming
+Step Goal: 9200
+Date: 03/05/2021
+
+Name: Saturday Rest
+Step Goal: 4200
+Date: 03/06/2021
+
+Name: Sunday Rest
+Step Goal: 3000
+Date: 03/07/2021
