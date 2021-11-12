@@ -1,3 +1,0 @@
-/home/subham/Documents/GitHub/WSU-Coding-Projects/C++ Programming/CPTS 223/Matching Game/CLion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/subham/Documents/GitHub/WSU-Coding-Projects/C++ Programming/CPTS 223/Matching Game/CLion/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/subham/Documents/GitHub/WSU-Coding-Projects/C++ Programming/CPTS 223/Matching Game/CLion/cmake-build-debug/CMakeFiles/Matching_Game.dir

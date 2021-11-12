@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/Matching_Game.dir/main.cpp.o CMakeFiles/Matching_Game.dir/definitions.cpp.o -o Matching_Game 
