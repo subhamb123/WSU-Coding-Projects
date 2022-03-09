@@ -1,0 +1,4 @@
+/snap/clion/169/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" "/home/subham/Documents/CLion/WSU/CPTS 223/Programming Assignments/AVL Trees"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/subham/Documents/CLion/WSU/CPTS 223/Programming Assignments/AVL Trees/cmake-build-debug

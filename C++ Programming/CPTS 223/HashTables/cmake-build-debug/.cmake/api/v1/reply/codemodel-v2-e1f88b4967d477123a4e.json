@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CPTS_223_P3",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CPTS_223_PA3-executable::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CPTS_223_PA3-executable-Debug-44dac7995941dedac3ba.json",
+					"name" : "CPTS_223_PA3-executable",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/subham/Documents/CLion/WSU/CPTS 223/Programming Assignments/HashTables/cmake-build-debug",
+		"source" : "/home/subham/Documents/CLion/WSU/CPTS 223/Programming Assignments/HashTables"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

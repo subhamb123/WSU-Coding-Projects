@@ -1,0 +1,2 @@
+current size: 0 bucket count: 101 load factor: 0
+Time difference = 84383[ms]

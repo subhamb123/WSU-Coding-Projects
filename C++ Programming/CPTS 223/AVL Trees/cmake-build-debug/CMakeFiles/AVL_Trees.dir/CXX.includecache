@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/subham/Documents/CLion/WSU/CPTS 223/Programming Assignments/AVL Trees/AVLNode.h
+iostream
+-
+cstdlib
+-
+
+/home/subham/Documents/CLion/WSU/CPTS 223/Programming Assignments/AVL Trees/AVLTree.h
+AVLNode.h
+/home/subham/Documents/CLion/WSU/CPTS 223/Programming Assignments/AVL Trees/AVLNode.h
+
+/home/subham/Documents/CLion/WSU/CPTS 223/Programming Assignments/AVL Trees/main.cpp
+AVLTree.h
+/home/subham/Documents/CLion/WSU/CPTS 223/Programming Assignments/AVL Trees/AVLTree.h
+
